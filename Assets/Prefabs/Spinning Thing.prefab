@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5250945495963303336}
   - component: {fileID: 110023386632373359}
   - component: {fileID: 6738120690509386292}
-  - component: {fileID: 6140812513482747014}
-  - component: {fileID: 6578300893053189280}
+  - component: {fileID: 7223917783041809887}
+  - component: {fileID: 9125558946287799994}
   m_Layer: 0
   m_Name: Spinning Thing
   m_TagString: Untagged
@@ -110,7 +110,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6140812513482747014
+--- !u!114 &7223917783041809887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,10 +119,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3665220475305752857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae4055bc45188c4c837d34ff95c0509, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d9e811b7f30be1459235273a41d60c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6578300893053189280
+--- !u!114 &9125558946287799994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,9 +131,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3665220475305752857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7ad9f54de89e934793cff724c6335c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9aa07153e0b109c4981edef31f7af7f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   xAngle: 0
-  yAngle: 0.5
+  yAngle: 1
   zAngle: 0
+  spinSpeed: 40

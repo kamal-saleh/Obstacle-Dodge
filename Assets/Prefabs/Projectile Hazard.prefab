@@ -341,6 +341,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trigger Volume
       objectReference: {fileID: 0}
+    - target: {fileID: 5262936178294521298, guid: dc700248321784d44985651adca75b09, type: 3}
+      propertyPath: projectiles.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262936178294521298, guid: dc700248321784d44985651adca75b09, type: 3}
+      propertyPath: 'projectiles.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7870281462788446319}
+    - target: {fileID: 5262936178294521298, guid: dc700248321784d44985651adca75b09, type: 3}
+      propertyPath: 'projectiles.Array.data[1]'
+      value: 
+      objectReference: {fileID: 3155905381012878375}
+    - target: {fileID: 5262936178294521298, guid: dc700248321784d44985651adca75b09, type: 3}
+      propertyPath: 'projectiles.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8459472915309159907}
+    - target: {fileID: 5262936178294521298, guid: dc700248321784d44985651adca75b09, type: 3}
+      propertyPath: 'projectiles.Array.data[3]'
+      value: 
+      objectReference: {fileID: 7034351836105632234}
+    - target: {fileID: 5262936178294521298, guid: dc700248321784d44985651adca75b09, type: 3}
+      propertyPath: 'projectiles.Array.data[4]'
+      value: 
+      objectReference: {fileID: 511079151558408944}
     - target: {fileID: 8431894011544559015, guid: dc700248321784d44985651adca75b09, type: 3}
       propertyPath: projectile1
       value: 

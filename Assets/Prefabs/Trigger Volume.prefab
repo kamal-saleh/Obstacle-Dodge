@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9023538424516847007}
   - component: {fileID: 3623429385663557348}
   - component: {fileID: 3766241519149383039}
-  - component: {fileID: 8431894011544559015}
+  - component: {fileID: 5262936178294521298}
   m_Layer: 0
   m_Name: Trigger Volume
   m_TagString: Untagged
@@ -63,7 +63,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8431894011544559015
+--- !u!114 &5262936178294521298
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,11 +72,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1723174777051048706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9d2b495f2f80fc4dbf94a924f0e2e2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 08900a4ca0708ff45bf20f071fe651a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile1: {fileID: 0}
-  projectile2: {fileID: 0}
-  projectile3: {fileID: 0}
-  projectile4: {fileID: 0}
-  projectile5: {fileID: 0}
+  projectiles: []

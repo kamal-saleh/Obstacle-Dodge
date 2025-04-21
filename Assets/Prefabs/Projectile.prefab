@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8543279841838249287}
   - component: {fileID: 3884795128506950092}
   - component: {fileID: 3732046640692511638}
-  - component: {fileID: 449939765219888543}
-  - component: {fileID: 2925728430602080662}
+  - component: {fileID: 3418183386136589694}
+  - component: {fileID: 3257616148831792175}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -110,7 +110,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &449939765219888543
+--- !u!114 &3418183386136589694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,12 +119,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7230576664140778172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c99702c1480d184eaef570b142f2fae, type: 3}
+  m_Script: {fileID: 11500000, guid: e6ceef9b3fc98dc46bd4a903b2736db0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
   player: {fileID: 0}
---- !u!114 &2925728430602080662
+  speed: 0
+--- !u!114 &3257616148831792175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,6 +133,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7230576664140778172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae4055bc45188c4c837d34ff95c0509, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d9e811b7f30be1459235273a41d60c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
